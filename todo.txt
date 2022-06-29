@@ -1,0 +1,4 @@
+1.seller registration
+2.admin verify seller details and verify them
+3.seller can upload product for his own buisness
+4.admin can charge every product buy by user
