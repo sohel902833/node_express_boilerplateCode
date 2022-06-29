@@ -15,7 +15,7 @@ app.get("/health", (req, res) => {
   });
 });
 
-app.use("/api/admin", require("../routes/authRoutes.admin"));
+// app.use("/api/admin", require("../routes/authRoutes.admin"));
 
 function errorHandler(err, req, res, next) {
   if (res.headersSent) {
