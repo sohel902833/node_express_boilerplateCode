@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const sellerAuthGard = (req, res, next) => {
+const authGard = (req, res, next) => {
   const { authorization } = req.headers;
   if (authorization) {
     try {
@@ -36,4 +36,4 @@ const sellerAuthGard = (req, res, next) => {
   }
 };
 
-module.exports = sellerAuthGard;
+module.exports = authGard;
